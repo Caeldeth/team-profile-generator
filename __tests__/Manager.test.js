@@ -19,7 +19,7 @@ test('getRole should return "Manager" for managers', () => {
 test('Can fetch office number', () => {
     const testOffice = '686';
     const mgr = new Manager('Daphne', '666', 'mgrname@domain.com', testOffice);
-    expect(mgr.officeNumber).toBe(testOffice);
+    expect(mgr.getOfficeNumber()).toBe(testOffice);
 })
 //need test to get name
 test('Can fetch manager name', () => {

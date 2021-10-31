@@ -1,9 +1,9 @@
 const Intern = require('../lib/Intern');
 const Employee = require('../lib/Employee');
 
-//need test to set school username
-test('Can set school username via constructor', () => {
-    const testSchool = 'wired_squirrel'
+//need test to set school name
+test('Can set school name via constructor', () => {
+    const testSchool = 'University of Somewhere'
     const int = new Intern('Frankie', '456', 'intname@domain.com', testSchool);
     expect(int.school).toBe(testSchool);
 })
@@ -16,8 +16,8 @@ test('getRole should return "Intern" for interns', () => {
 })
 
 //need test to get office number
-test('Can fetch school username', () => {
-    const testSchool = 'wired_squirrel'
+test('Can fetch school name', () => {
+    const testSchool = 'University of Somewhere'
     const int = new Intern('Frankie', '456', 'intname@domain.com', testSchool);
     expect(int.school).toBe(testSchool);
 })

@@ -18,8 +18,8 @@ test('getRole should return "Engineer" for engineers', () => {
 //need test to get office number
 test('Can fetch github username', () => {
     const testGithub = 'wired_squirrel'
-    const eng = new Engineer('Daphne', '123', 'engname@domain.com', testGithub);
-    expect(eng.github).toBe(testGithub);
+    const eng = new Engineer('Cherise', '123', 'engname@domain.com', testGithub);
+    expect(eng.getGitHub()).toBe(testGithub);
 })
 //need test to get name
 test('Can fetch engineer name', () => {
