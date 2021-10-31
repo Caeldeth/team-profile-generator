@@ -39,5 +39,5 @@ test('Can fetch manager id', () => {
 test('Can fetch manager email', () => {
     const testEmail = 'mgrname@domain.com';
     const mgr = new Manager('Daphne', '666', testEmail);
-    expect(emp.getEmail()).toBe(testEmail);
+    expect(mgr.getEmail()).toBe(testEmail);
 });
