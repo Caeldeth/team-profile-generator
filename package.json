@@ -1,0 +1,27 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "An application to generate a team profile webpage",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "jest": "^27.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caeldeth/team-profile-generator.git"
+  },
+  "author": "Caeldeth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Caeldeth/team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/Caeldeth/team-profile-generator#readme"
+}
