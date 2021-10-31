@@ -1,5 +1,4 @@
-import { expect, test } from '@jest/globals';
-import Employee from '../lib/Employee';
+const Employee = require("../lib/Employee");
 
 // need test for making new employee object
 test('Can create new employee object', () => {
