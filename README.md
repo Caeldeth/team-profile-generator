@@ -51,3 +51,5 @@ If you have any questions on this project:
 Visit my [profile](https://github.com/Caeldeth) to see more great projects!
   
 ## Walkthrough
+All of the app's features:
+[![Preview of Youtube Video](./assets/images/teamprofile.gif)](http://www.youtube.com/watch?v=4ysx3aEDApQ "Team Profile Generator Walkthrough")
